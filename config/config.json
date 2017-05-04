@@ -11,13 +11,23 @@
     "password": "26d12be6",
     "database": "heroku_105798124bc25b1 ",
     "host": "us-cdbr-iron-east-03.cleardb.net",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "pool": {
+    "max": 5,
+    "min": 0,
+    "idle": 10000
+  }
   },
   "production": {
     "username": "b042dd5c594f83",
     "password": "26d12be6",
     "database": "heroku_105798124bc25b1 ",
     "host": "us-cdbr-iron-east-03.cleardb.net",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "pool": {
+    "max": 5,
+    "min": 0,
+    "idle": 10000
+  }
   }
 }
