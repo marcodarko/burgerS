@@ -1,6 +1,8 @@
+"use strict";
+
 module.exports = function(sequelize, DataTypes) {
 
-  var Burger = sequelize.define("burgerTable", {
+  var Burger = sequelize.define("BurgerTable", {
     burger_name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -8,23 +10,25 @@ module.exports = function(sequelize, DataTypes) {
         len: [1]
       }
     },
-    devourded: {
+    devoured: {
       type: DataTypes.BOOLEAN,
-      allowNull: false,
+      allowNull: true,
       default: false
     },
     date:{
     	type: DataTypes.DATE,
-    	allowNull: false,
+    	allowNull: true,
       default: DataTypes.NOW
-    },
-    customer_name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        len: [1]
-      }
     }
+    // ,
+    // customer_name: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    //   default: "User",
+    //   validate: {
+    //     len: [1]
+    //   }
+    // }
   }, {
   // don't add the timestamp attributes (updatedAt, createdAt)
   timestamps: false,
