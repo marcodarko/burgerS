@@ -9,7 +9,7 @@
   "test": {
     "username": "b042dd5c594f83",
     "password": "26d12be6",
-    "database": "heroku_105798124bc25b1 ",
+    "database": "heroku_105798124bc25b1",
     "host": "us-cdbr-iron-east-03.cleardb.net",
     "dialect": "mysql",
     "pool": {
@@ -21,7 +21,7 @@
   "production": {
     "username": "b042dd5c594f83",
     "password": "26d12be6",
-    "database": "heroku_105798124bc25b1 ",
+    "database": "heroku_105798124bc25b1",
     "host": "us-cdbr-iron-east-03.cleardb.net",
     "dialect": "mysql",
     "pool": {
